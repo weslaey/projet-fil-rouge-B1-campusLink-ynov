@@ -20,9 +20,7 @@
         </nav>
     </header>
 
-    <main>
-
-    </main>
+<main>
 
     <section id="dashboard">
         <h2>Tableaau de bord</h2>
@@ -67,4 +65,26 @@
         </article>
     </section>
     
+    <section id="declarer">
+        <h2>Signaler un nouveau problème</h2>
+        <form action="#" method="POST">
+            <label for="salle">Salle concernée :</label>
+            <input type="texte" id="salle" name="salle" required placeholder="Ex : A101">
+
+            <label for="equipement">Équipement :</label>
+            <input type="text" id="equipement" name="equipement" required placeholder="Ex: PC, Wi-Fi...">
+
+            <label for="description">Description de l'incident :</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+
+            <button type="submit">Envoyer le signalement</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy;2026-2027 CampusLink — Projet Fil Rouge B1</p>
+</footer>
+
 </body>
+</html>
